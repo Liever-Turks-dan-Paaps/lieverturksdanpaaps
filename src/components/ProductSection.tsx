@@ -14,7 +14,7 @@ const ProductSection = () => {
   
   // Product specifications with translations
   const specifications = [
-    { name: t('spec.material'), value: "Silver" },
+    { name: t('spec.material'), value: language === 'nl' ? "Zilver" : "Silver" },
     { name: t('spec.dimensions'), value: "35 mm × 31 mm" },
     { name: t('spec.weight'), value: "11.27 grams" },
     { name: t('spec.inscription'), value: "Liver Tvrcx dan Pavs / Endespit de La Mes" },
